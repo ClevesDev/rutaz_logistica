@@ -1,0 +1,12 @@
+# Marcar carpetas de plataforma como soporte (no cuentan en estadísticas)
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+web/** linguist-vendored
+
+# Opcional: Marcar archivos de configuración y documentación como tales
+*.yaml linguist-documentation
+*.md linguist-documentation
+*.lock linguist-generated

@@ -1,0 +1,45 @@
+# https://dart.dev/guides/libraries/private-files
+# Archivos de herramientas de Dart y Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Código generado (Best practice: no subir lo que build_runner puede crear)
+*.freezed.dart
+*.g.dart
+
+# Símbolos y ofuscación
+app.*.symbols
+app.*.map.json
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.gradle/
+local.properties
+capside.properties
+**/*.keystore
+**/*.jks
+
+# Visual Studio Code
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Archivos del sistema y logs
+*.log
+.DS_Store
+.history
+Thumbs.db
+
+# Soporte de plataformas específicas
+/android/app/debug
+/android/app/profile
+/android/app/release
+/windows/flutter/ephemeral/
